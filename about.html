@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a la hoja de estilos externa -->
+</head>
+<body>
+    <h1>Formulario de Contacto</h1> <!-- Encabezado principal -->
+
+    <!-- Formulario de contacto -->
+    <form action="submit.php" method="post"> <!-- Definición del formulario con método POST y acción hacia submit.php -->
+        <label for="name">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
+        <input type="text" id="name" name="name" required> <!-- Campo de entrada para el nombre con validación requerida -->
+
+        <label for="email">Email:</label> <!-- Etiqueta para el campo de email -->
+        <input type="email" id="email" name="email" required> <!-- Campo de entrada para el email con validación requerida y tipo "email" -->
+
+        <label for="message">Mensaje:</label> <!-- Etiqueta para el campo de mensaje -->
+        <textarea id="message" name="message" required></textarea> <!-- Área de texto para el mensaje con validación requerida -->
+
+        <input type="submit" value="Enviar"> <!-- Botón de envío del formulario -->
+    </form>
+
+    <p><a href="index.html">Volver a la página principal</a></p> <!-- Enlace para volver a la página principal -->
+</body>
+</html>
+

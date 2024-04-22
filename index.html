@@ -1,50 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejemplo de Etiquetas Semánticas</title>
-  <style>
-    /* Algunos estilos básicos para hacer que el ejemplo sea más visual */
-    header, nav, article, section, aside, footer {
-      padding: 20px;
-      border: 1px solid #6b181f;
-      margin-bottom: 20px;
-    }
-  </style>
+    <title>Tabla de Datos</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a la hoja de estilos externa -->
 </head>
 <body>
-  <header>
-    <h1>Encabezado de la Página</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <h1>Tabla de Datos</h1> <!-- Encabezado principal -->
 
-  <main>
-    <article>
-      <h2>Artículo Principal</h2>
-      <p>Este es el contenido del artículo principal de la página.</p>
-    </article>
+    <!-- Tabla de datos -->
+    <table>
+        <caption>Lista de Productos</caption> <!-- Título descriptivo de la tabla -->
+        <thead>
+            <tr>
+                <th>Producto</th> <!-- Encabezado de columna para Producto -->
+                <th>Precio</th> <!-- Encabezado de columna para Precio -->
+                <th>Stock</th> <!-- Encabezado de columna para Stock -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Producto A</td> <!-- Datos de Producto A -->
+                <td>$20.00</td> <!-- Datos de Precio para Producto A -->
+                <td>10</td> <!-- Datos de Stock para Producto A -->
+            </tr>
+            <tr>
+                <td>Producto B</td> <!-- Datos de Producto B -->
+                <td>$15.50</td> <!-- Datos de Precio para Producto B -->
+                <td>5</td> <!-- Datos de Stock para Producto B -->
+            </tr>
+            <tr>
+                <td>Producto C</td> <!-- Datos de Producto C -->
+                <td>$30.00</td> <!-- Datos de Precio para Producto C -->
+                <td>8</td> <!-- Datos de Stock para Producto C -->
+            </tr>
+        </tbody>
+    </table>
 
-    <section>
-      <h2>Sección de Contenido</h2>
-      <p>Esta es una sección genérica de contenido en la página.</p>
-    </section>
-
-    <aside>
-      <h2>Información Adicional</h2>
-      <p>Este es un contenido complementario o secundario de la página.</p>
-    </aside>
-  </main>
-
-  <footer>
-    <p>&copy; 2023 Ejemplo de Etiquetas Semánticas. Todos los derechos reservados.</p>
-  </footer>
+    <p><a href="about.html">Ir a la página de contacto</a></p> <!-- Enlace a otra página -->
 </body>
 </html>
+
